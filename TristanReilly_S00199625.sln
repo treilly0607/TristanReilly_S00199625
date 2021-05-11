@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TristanReilly_S00199625", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestProjectDecreasePrice", "UnitTestProjectDecreasePrice\UnitTestProjectDecreasePrice.csproj", "{E552B305-B5B5-4D5B-81FB-7242DF365E48}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataManagement", "DataManagement\DataManagement.csproj", "{349E3D52-EA21-4FAD-9ED7-EECC7F77E574}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{E552B305-B5B5-4D5B-81FB-7242DF365E48}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E552B305-B5B5-4D5B-81FB-7242DF365E48}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E552B305-B5B5-4D5B-81FB-7242DF365E48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{349E3D52-EA21-4FAD-9ED7-EECC7F77E574}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{349E3D52-EA21-4FAD-9ED7-EECC7F77E574}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{349E3D52-EA21-4FAD-9ED7-EECC7F77E574}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{349E3D52-EA21-4FAD-9ED7-EECC7F77E574}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
