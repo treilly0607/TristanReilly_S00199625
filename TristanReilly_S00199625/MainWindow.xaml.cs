@@ -45,7 +45,6 @@ namespace TristanReilly_S00199625
                 DecsriptionTblock.Text = SelectedGame.Description;
                 PlatformTblock.Text = SelectedGame.Platform;
                 PriceTblock.Text = Convert.ToString(SelectedGame.Price);
-                CriticScoreTblock.Text = Convert.ToString(SelectedGame.CriticScore);
             }
         }
     }
