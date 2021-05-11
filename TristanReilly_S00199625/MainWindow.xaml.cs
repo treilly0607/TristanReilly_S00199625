@@ -24,5 +24,29 @@ namespace TristanReilly_S00199625
         {
             InitializeComponent();
         }
+
+        private void Window_Loaded(object sender, RoutedEventArgs e)
+        {
+            // Added db items to listbox
+            GameData db = new GameData();  
+            var query = from p in db.Games select p;
+
+            GamesLB.ItemsSource = query.ToList();
+        }
+
+        private void GamesLB_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            // Change details based on selected item
+            Game SelectedGame = GamesLB.SelectedItem as Game;
+
+            if (SelectedGame != null)
+            {
+                GameImage.Source = new BitmapImage(new Uri(SelectedGame.GameImage, UriKind.Relative));
+                DecsriptionTblock.Text = SelectedGame.Description;
+                PlatformTblock.Text = SelectedGame.Platform;
+                PriceTblock.Text = Convert.ToString(SelectedGame.Price);
+                CriticScoreTblock.Text = Convert.ToString(SelectedGame.CriticScore);
+            }
+        }
     }
 }

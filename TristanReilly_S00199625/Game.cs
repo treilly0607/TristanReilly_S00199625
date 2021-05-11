@@ -11,7 +11,8 @@ namespace TristanReilly_S00199625
     public class Game
     {
         // Properities for Game class
-        public string Name { get; set; }
+        public int GameID { get; set; }
+        public string Name { get; set;}
         public decimal CriticScore { get; set; }
         public string Description { get; set; }
         public decimal Price { get; set; }

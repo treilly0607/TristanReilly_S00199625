@@ -17,6 +17,7 @@ namespace DataManagement
             {
                 Game g1 = new Game()
                 {
+                    GameID = 1,
                     Name = "It Takes Two",
                     Platform = "PC, Xbox, PS, Switch",
                     CriticScore = 88,
@@ -27,6 +28,7 @@ namespace DataManagement
 
                 Game g2 = new Game()
                 {
+                    GameID = 2,
                     Name = "Miles Morales",
                     Platform = "PS",
                     CriticScore = 85,
@@ -37,6 +39,7 @@ namespace DataManagement
 
                 Game g3 = new Game()
                 {
+                    GameID = 3,
                     Name = "Halo 5",
                     Platform = "Xbox",
                     CriticScore = 84,
@@ -47,6 +50,7 @@ namespace DataManagement
 
                 Game g4 = new Game()
                 {
+                    GameID = 4,
                     Name = "Animal Crossing",
                     Platform = "Switch",
                     CriticScore = 90,
