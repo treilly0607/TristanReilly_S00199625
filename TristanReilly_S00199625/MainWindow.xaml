@@ -19,7 +19,7 @@
         </DataTemplate>
     </Window.Resources>
 
-    <Grid>
+    <Grid Background="PaleVioletRed">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="140*"/>
             <ColumnDefinition Width="653*"/>
@@ -28,11 +28,17 @@
         <TextBlock x:Name="DecsriptionTblock" HorizontalAlignment="Left" Height="175" Margin="427,41,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="216" Grid.Column="1"/>
         <Image x:Name="GameImage" HorizontalAlignment="Left" Height="190" Margin="427,221,0,0" VerticalAlignment="Top" Width="216" Grid.Column="1"/>
         <TextBlock HorizontalAlignment="Left" Height="42" Margin="28,310,0,0" TextWrapping="Wrap" Text="Price:" VerticalAlignment="Top" Width="84" FontSize="16" FontWeight="Bold"/>
-        <TextBlock x:Name="PriceTblock" HorizontalAlignment="Left" Height="42" Margin="0,305,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="84" FontSize="16" Grid.Column="1"/>
+        <TextBlock x:Name="PriceTblock" HorizontalAlignment="Left" Height="42" Margin="0,313,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="84" FontSize="16" Grid.Column="1"/>
         <TextBlock HorizontalAlignment="Left" Height="42" Margin="28,352,0,0" TextWrapping="Wrap" Text="Platform:" VerticalAlignment="Top" Width="84" FontSize="16" FontWeight="Bold"/>
         <TextBlock x:Name="PlatformTblock" HorizontalAlignment="Left" Height="42" Margin="0,352,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="177" FontSize="16" Grid.Column="1"/>
         <TextBlock HorizontalAlignment="Left" Height="23" Margin="28,27,0,0" TextWrapping="Wrap" Text="Name" VerticalAlignment="Top" Width="84" FontSize="14" FontWeight="Bold"/>
         <TextBlock HorizontalAlignment="Left" Height="23" Margin="47,26,0,0" TextWrapping="Wrap" Text="Critic Score" VerticalAlignment="Top" Width="84" FontSize="14" FontWeight="Bold" Grid.Column="1"/>
+        <RadioButton x:Name="PCRbtn" Content="PC" Grid.Column="1" HorizontalAlignment="Left" Margin="213,335,0,0" VerticalAlignment="Top"/>
+        <RadioButton x:Name="XboxRbtn" Content="Xbox" Grid.Column="1" HorizontalAlignment="Left" Margin="213,356,0,0" VerticalAlignment="Top"/>
+        <RadioButton x:Name="PlaystationRbtn" Content="Playstation " Grid.Column="1" HorizontalAlignment="Left" Margin="213,376,0,0" VerticalAlignment="Top"/>
+        <RadioButton x:Name="SwitchRbtn" Content="Switch" Grid.Column="1" HorizontalAlignment="Left" Margin="213,396,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="RefreshBtn" Content="Refresh" Grid.Column="1" HorizontalAlignment="Left" Height="40" Margin="331,335,0,0" VerticalAlignment="Top" Width="77"/>
+        <RadioButton x:Name="AllRbtn" Content="All" Grid.Column="1" HorizontalAlignment="Left" Margin="213,313,0,0" VerticalAlignment="Top"/>
 
     </Grid>
 </Window>

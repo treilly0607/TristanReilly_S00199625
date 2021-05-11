@@ -47,5 +47,14 @@ namespace TristanReilly_S00199625
                 PriceTblock.Text = Convert.ToString(SelectedGame.Price);
             }
         }
+
+        /*private void RefreshBtn_Click(object sender, RoutedEventArgs e)
+        {
+            if (PCRbtn.Checked)
+            {
+                GameData db = new GameData();
+                var query = from p in db.Games select p.Platform;
+            }
+        }*/
     }
 }
